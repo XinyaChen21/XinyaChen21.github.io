@@ -11,6 +11,37 @@
 @STRING{NEURIPS = {Advances in Neural Information Processing Systems (NeurIPS)}}
 @STRING{ARXIV = {arXiv.org}}
 @STRING{WACV = {Proc. of the IEEE Winter Conf. on Applications of Computer Vision (WACV)}}
+@STRING{ICML = {Proc. of the International Conference on Machine Learning (ICML)}}
+
+@article{SemanticNVS,
+  %abbr={PhysRev},
+  title={SemanticNVS: Improving Semantic Scene Understanding in Generative Novel View Synthesis},
+  %author={Einstein, A. and Podolsky, B. and Rosen, N.},
+  %author={Xinya Chen and Jiaxin Huang and Yanrui Bin and Lu Yu and Yiyi Liao<sup>&#x0266F;</sup>},
+  author={Chen, Xinya and Wewer, Christopher and Xie, Jiahao and Hu, Xinting and Lenssen, Jan Eric<sup>&#x0266F;</sup>},
+  abstract={We present SemanticNVS, a camera-conditioned multi-view diffusion model for novel view synthesis (NVS), which improves generation quality and consistency by integrating pre-trained semantic feature extractors. Existing NVS methods perform well for views near the input view, however, they tend to generate semantically implausible and distorted images under long-range camera motion, revealing severe degradation. We speculate that this degradation is due to current models failing to fully understand their conditioning or intermediate generated scene content. Here, we propose to integrate pre-trained semantic feature extractors to incorporate stronger scene semantics as conditioning to achieve high-quality generation even at distant viewpoints. We investigate two different strategies, (1) warped semantic features and (2) an alternating scheme of understanding and generation at each denoising step. Experimental results on multiple datasets demonstrate the clear qualitative and quantitative (4.69\%-15.26\% in FID) improvement over state-of-the-art alternatives.},
+  journal=ICML,
+  %volume={47},
+  %issue={10},
+  %pages={777--780},
+  %numpages={0},
+  year={2026},
+  %month={May},
+  publisher=aps,
+  %doi={10.1103/PhysRev.47.777},
+  %url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  %html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  website={https://semanticnvs.github.io/},
+  pdf={https://arxiv.org/pdf/2602.20079},
+  %altmetric={248277},
+  dimensions={true},
+  %bibtex_show={true},
+  %teaser = {teaser_demo.jpg},
+  preview={semanticnvs.gif},
+  selected={true}
+}
+
+
 @article{TeFF,
   %abbr={PhysRev},
   title={TeFF: Learning 3D-Aware GANs from Unposed Images with Template Feature Field <font color="red">(Oral)</font>},
