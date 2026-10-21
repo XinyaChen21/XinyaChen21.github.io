@@ -41,6 +41,35 @@
   selected={true}
 }
 
+@article{ScenDi,
+  %abbr={PhysRev},
+  title={ScenDi: 3D-to-2D Scene Diffusion Cascades for Urban Generation},
+  author={Guo, Hanlei and Shao,  Jiahao and Chen, Xinya and Miao, Sheng and Shen, Yujun and Liao Yiyi<sup>&#x0266F;</sup>},
+  abstract={Recent advancements in 3D object generation using diffusion models have achieved remarkable success, but generating realistic 3D urban scenes remains challenging. Existing methods relying solely on 3D diffusion models tend to suffer a degradation in appearance details, while those utilizing only 2D diffusion models typically compromise camera controllability. To overcome this limitation, we propose ScenDi, a method for urban scene generation that integrates both 3D and 2D diffusion models. We first train a 3D latent diffusion model to generate 3D Gaussians, enabling the rendering of images at a relatively low resolution. To enable controllable synthesis, this 3DGS generation process can be optionally conditioned by specifying inputs such as 3D bounding boxes, road maps, or text prompts. Then, we train a 2D video diffusion model to enhance appearance details conditioned on rendered images from the 3D Gaussians. By leveraging the coarse 3D scene as guidance for 2D video diffusion, ScenDi generates desired scenes based on input conditions and successfully adheres to accurate camera trajectories. Experiments on two challenging real-world datasets, Waymo and KITTI-360, demonstrate the effectiveness of our approach.},
+  journal=CVPR,
+  year={2026},
+  publisher=aps,
+  website={https://xdimlab.github.io/ScenDi_website/},
+  pdf={https://arxiv.org/abs/2601.15221},
+  dimensions={true},
+  preview={Guo2026CVPR.gif},
+  selected={true}
+}
+
+@article{NormalCrafter,
+  %abbr={PhysRev},
+  title={NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors},
+  author={Bin, Yanrui and Hu,  Wenbo and Wang, Haoyuan and Chen, Xinya and Wang, Bing<sup>&#x0266F;</sup>},
+  abstract={Surface normal estimation serves as a cornerstone for a spectrum of computer vision applications. While numerous efforts have been devoted to static image scenarios, ensuring temporal coherence in video-based normal estimation remains a formidable challenge. Instead of merely augmenting existing methods with temporal components, we present NormalCrafter to leverage the inherent temporal priors of video diffusion models. To secure high-fidelity normal estimation across sequences, we propose Semantic Feature Regularization (SFR), which aligns diffusion features with semantic cues, encouraging the model to concentrate on the intrinsic semantics of the scene. Moreover, we introduce a two-stage training protocol that leverages both latent and pixel space learning to preserve spatial accuracy while maintaining long temporal context. Extensive evaluations demonstrate the efficacy of our method, showcasing a superior performance in generating temporally consistent normal sequences with intricate details from diverse videos.},
+  journal=ICCV,
+  year={2025},
+  publisher=aps,
+  website={https://normalcrafter.github.io/},
+  pdf={https://arxiv.org/abs/2504.11427},
+  dimensions={true},
+  preview={normalcrafter.gif},
+  selected={true}
+}
 
 @article{TeFF,
   %abbr={PhysRev},
