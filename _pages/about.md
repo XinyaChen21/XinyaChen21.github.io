@@ -41,7 +41,8 @@ years: [2023, 2020]
   and my B.E. degree from HUST. I also interned at Microsoft, Ant Group, and Megvii.
 </p>
 
-My interests lie at the **World Model**, **Video Generation** and **3D-Aware Generation**.
+I am now working on **Robotics** and **World Action Models**. Previously, I worked on the **World Model**, **Video Generation** and **3D-Aware Generation**.
+<!--My interests lie at the **World Model**, **Video Generation** and **3D-Aware Generation**.-->
  <!--My interests lie at the intersection of **3D computer vision** and **generative models**, including **generative novel view synthesis** and **3D-aware generative models**.-->
  <!-- My past research also involves building human-level intelligent systems, including 3D human pose and shape estimation, 2d human pose estimation and crowd counting. -->
 <!-- My research interest lies in neural rendering, including 3d-aware generative model for human and in the wild objects. -->
