@@ -31,7 +31,7 @@ years: [2023, 2020]
   working with
   <a href="https://yiyiliao.github.io/">Prof. Yiyi Liao</a>,
   and before that a computer vision engineer at
-  <a href="https://en.wikipedia.org/wiki/TikTok">TikTok, ByteDance</a>.
+  AILab, ByteDance.
   I received my M.E. degree from
   <a href="https://en.wikipedia.org/wiki/Huazhong_University_of_Science_and_Technology">
     Huazhong University of Science and Technology (HUST)
